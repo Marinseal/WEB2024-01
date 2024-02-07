@@ -1,0 +1,356 @@
+body{
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.cover{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../public/backgroundweb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.navbar{
+    width: 100%;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 64px;
+    align-items:center;
+    justify-content: space-between;
+    padding: 50px 45px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+}
+
+.menu{
+    display: none;
+}
+
+.profile{
+    display: none;
+}
+
+
+
+.content{
+    background-color: brow;
+    margin-top: 35%;
+    width: 100%;
+    height: auto;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center
+    
+    
+    
+
+}
+
+.content h1{
+    font-size: 96px;
+}
+
+.content p{
+    font-size: 36px;
+}
+
+.btn-primary{
+    width: 240px;
+    height: 48px;
+    background-color: black;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 22px;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    color: white
+  
+}
+
+.btn-primary:hover{
+    color: black;
+    background-color: #ffffff
+    
+
+}
+
+.btn-secondary{
+    width: 240px;
+    height: 48px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 22px;
+    transition: all 0.5s ease;
+    color: rgb(255, 255, 255)
+  
+}
+
+.btn-secondary:hover{
+    color: black;
+    background-color: #ffffff
+    
+
+}
+
+.btn-secondary2{
+    width: 240px;
+    height: 48px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 22px;
+    transition: all 0.5s ease;
+    color: rgb(255, 255, 255)
+  
+}
+
+.btn-secondary2:hover{
+    color: black;
+    background-color: #ffffff
+    
+
+}
+
+.card-container{
+    width: 350px;
+    box-shadow: 0px 5px 15px #999;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    transition: all 0.5s ease;
+    text-align: start;
+    background-color: white;
+}
+
+    
+
+
+.card-img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    transition: all 0.5s ease;
+}
+
+
+
+
+.card-title{
+    margin-top: 10%;
+    margin-left: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-description{
+    margin: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondary-title{
+    margin: 3%;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 64px;
+    align-items:center;
+    justify-content: end;
+    padding: 50px 45px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10%;
+}
+
+@media (max-width: 500px) {
+    .navbar{
+        width: 100%;
+        display: flex;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        height: 64px;
+        align-items:center;
+        justify-content:space-between;
+        padding: 50px 45px;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+        position: fixed;
+        
+    }
+
+    .cover{
+        width: 100%;
+        height: 550px;
+        background-image: url(../public/pruebaiphone.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .logo{
+        display: flex;
+        width: 45%;
+        margin: 0 auto;
+        
+        
+      
+    }
+
+    .menu{
+        display: flex;
+        width: 8%;
+        margin: 0 auto;
+        margin-left: -5%;
+        
+       
+    }
+
+    .profile{
+        display: flex;
+        width: 10%;
+        margin: 0 auto;
+        margin-right: -5%;
+        
+       
+       
+    }
+
+    .btn-secondary{
+        display: none;
+        width: 150px;
+        height: 50px;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 22px;
+        transition: all 0.5s ease;
+        color: rgb(255, 255, 255)
+      
+    }
+
+    .content{
+        background-color: brow;
+        margin-top: 45%;
+        width: 100%;
+        height: auto;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        text-align: center
+        
+        
+        
+    
+    }
+    
+    .content h1{
+        font-size: 50px;
+    }
+    
+    .content p{
+        font-size: 20px;
+    }
+
+    .btn-secondary2{
+        display: none;
+        width: 150px;
+        height: 50px;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 22px;
+        transition: all 0.5s ease;
+        color: rgb(255, 255, 255)
+      
+    }
+
+    .btn-primary{
+        width: 200px;
+        height: 48px;
+        background-color: black;
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 22px;
+        border-radius: 20px;
+        transition: all 0.5s ease;
+        color: white
+      
+    }
+    
+    .btn-primary:hover{
+        color: black;
+        background-color: #ffffff
+        
+    
+    }
+
+    .card-img{
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+        transition: all 0.5s ease;
+    }
+    
+    
+    
+    
+    .card-title{
+        margin-top: 10%;
+        margin-left: 3%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+    
+    .card-description{
+        margin: 3%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+    
+    .card-section{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .secondary-title{
+        margin-top: 5%;
+        font-size: 36px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+}
