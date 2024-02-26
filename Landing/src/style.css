@@ -1,0 +1,543 @@
+body{
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.cover{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../public/backgroundweb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.navbar{
+    width: 100%;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 64px;
+    align-items:center;
+    justify-content: space-between;
+    padding: 50px 45px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .about-us {
+    color: white; /* Cambiar color de texto */
+    background-color: black; /* Cambiar color de fondo */
+    padding: 30px 16px; /* Espaciado interno */
+    margin: 0; /* Eliminar márgenes */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black; /* Cambiar color de fondo */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(105, 105, 105, 0.2);
+    z-index: 1;
+    padding: 0; /* Eliminar padding */
+    margin: 0; /* Eliminar márgenes */
+    top: 100%; /* Posicionar el menú debajo del elemento "ABOUT US" */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+
+  .dropdown-content ul {
+    list-style-type: none; /* Eliminar viñetas de la lista */
+    padding: 0; /* Eliminar padding */
+    margin: 0; /* Eliminar márgenes */
+  }
+
+  .dropdown-content li {
+    display: block;
+  }
+
+  .dropdown-content li {
+    color: white; /* Cambiar color de texto */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content li:hover {
+    background-color: #3d3d3d; /* Cambiar color de fondo en hover */
+  }
+
+  .dropdown:focus-within .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .about-us {
+    text-decoration: underline;
+  }
+
+
+.header-text{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.about-us{
+    margin-right: 20px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+}
+
+.menu{
+    display: none;
+}
+
+.profile{
+    display: none;
+}
+
+
+
+
+.content{
+    background-color: brow;
+    margin-top: 35%;
+    width: 100%;
+    height: auto;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center
+    
+    
+    
+
+}
+
+.content h1{
+    font-size: 96px;
+}
+
+.content p{
+    font-size: 36px;
+}
+
+.btn-primary{
+    width: 240px;
+    height: 48px;
+    background-color: black;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 22px;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    color: white
+  
+}
+
+.btn-primary:hover{
+    color: black;
+    background-color: #ffffff
+    
+
+}
+
+
+
+.btn-secondary{
+    width: 240px;
+    height: 48px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 22px;
+    transition: all 0.5s ease;
+    color: rgb(255, 255, 255)
+  
+}
+
+.btn-secondary:hover{
+    color: black;
+    background-color: #ffffff
+    
+
+}
+
+.btn-secondary2{
+    width: 240px;
+    height: 48px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 22px;
+    transition: all 0.5s ease;
+    color: rgb(255, 255, 255)
+  
+}
+
+.btn-secondary2:hover{
+    color: black;
+    background-color: #ffffff
+    
+
+}
+
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribuye el espacio entre las tarjetas */
+}
+
+.card-container{
+    width: 450px;
+    box-shadow: 0px 5px 15px #999;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    transition: all 0.5s ease;
+    text-align: start;
+    background-color: white;
+}
+
+    
+
+
+.card-img{
+    width: 450;
+    height: 450px;
+    border-radius: 8px 8px 0 0;
+    transition: all 0.5s ease;
+}
+
+
+
+
+.card-title{
+    margin-top: 10%;
+    margin-left: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-description{
+    margin: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondary-title{
+    margin: 3%;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 64px;
+    align-items:center;
+    justify-content: end;
+    padding: 50px 45px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10%;
+}
+
+@media (max-width: 500px) {
+    .navbar{
+        width: 100%;
+        display: flex;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        height: 64px;
+        align-items:center;
+        justify-content:space-between;
+        padding: 50px 45px;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+        position: fixed;
+        
+    }
+
+
+
+    
+
+.menu-mobile {
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.menu-mobile ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.menu-mobile li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-mobile li:last-child {
+    border-bottom: none;
+}
+
+    
+    .about-us{
+    display: none;
+    font-family: 'Roboto', sans-serif;
+        
+    }
+
+    .cover{
+        width: 100%;
+        height: 550px;
+        background-image: url(../public/pruebaiphone.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .logo{
+        display: flex;
+        width: 45%;
+        margin: 0 auto;
+        
+        
+      
+    }
+
+    .menu{
+        display: flex;
+        width: 8%;
+        margin: 0 auto;
+        margin-left: -5%;
+        
+       
+    }
+
+    .profile{
+        display: flex;
+        width: 10%;
+        margin: 0 auto;
+        margin-right: -5%;
+        
+       
+       
+    }
+
+    .btn-secondary{
+        display: none;
+        width: 150px;
+        height: 50px;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 22px;
+        transition: all 0.5s ease;
+        color: rgb(255, 255, 255)
+      
+    }
+
+    .content{
+        background-color: brow;
+        margin-top: 45%;
+        width: 100%;
+        height: auto;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        text-align: center
+        
+        
+        
+    
+    }
+    
+    .content h1{
+        font-size: 50px;
+    }
+    
+    .content p{
+        font-size: 20px;
+    }
+
+    .btn-secondary2{
+        display: none;
+        width: 150px;
+        height: 50px;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 22px;
+        transition: all 0.5s ease;
+        color: rgb(255, 255, 255)
+      
+    }
+
+    .btn-primary{
+        width: 200px;
+        height: 48px;
+        background-color: black;
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 22px;
+        border-radius: 20px;
+        transition: all 0.5s ease;
+        color: white
+      
+    }
+    
+    .btn-primary:hover{
+        color: black;
+        background-color: #ffffff
+        
+    
+    }
+
+    .card-img{
+        width: 350px;
+        height: 350px;
+        border-radius: 8px 8px 0 0;
+        transition: all 0.5s ease;
+    }
+    
+    
+    
+    
+    .card-title{
+        margin-top: 10%;
+        margin-left: 3%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+    
+    .card-description{
+        margin: 3%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+    
+    .card-section{
+        
+        gap: 64px;
+        padding-left: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .secondary-title{
+        margin-top: 5%;
+        font-size: 36px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .footer{
+        width: 100%;
+        display: flex;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        height: 64px;
+        align-items:center;
+        justify-content: end;
+        padding: 50px 45px;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 10%;
+        font-size: 14px;
+    }
+
+    .card-container{
+        width: 350px;
+        box-shadow: 0px 5px 15px #999;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        margin: 3%;
+        transition: all 0.5s ease;
+        text-align: start;
+        background-color: white;
+    }
+    
+        
+    
+    
+    .card-img{
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+        transition: all 0.5s ease;
+    }
+    
+    
+    
+    
+    .card-title{
+        margin-top: 10%;
+        margin-left: 3%;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .card-description{
+        margin: 3%;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .card-section{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .secondary-title{
+        margin: 3%;
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    } 
+    
+}
