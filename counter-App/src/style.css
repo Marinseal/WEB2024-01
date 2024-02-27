@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+  background-image: url("../public/Pokedexfondo-transformed.png");
+
+}
+
+@font-face {
+  font-family: 'Pokedex';
+  src: url('../public/Technology-Bold.ttf') format('truetype');
+
+}
+
+
+
+
+.body-background{
+  background-image: none;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+header {
+    background-color: #000000;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+
+
+  footer {
+    background-color: #000000;
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  footer p {
+    color: white;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    padding: 5px 45px;
+  }
+
+  .counter-container {
+
+    margin-top: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: none;
+    padding: 5px;
+   
+  }
+  
+  .counter-value {
+    font-size: 130px;
+    font-family: "Pokedex";
+    color: rgb(104, 0, 0);
+  }
+  
+  .btn-container {
+
+    
+    padding-top: 0px;
+    margin-top: 10px;
+    width: 25%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+
+
+.btn-global{
+  font-family: "Pokedex";
+  color: white;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: rgb(20, 20, 20);
+  border: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+  cursor: pointer;
+  transition-duration: 0.3s;
+font-weight: bold;
+}
+
+.btn-global:hover{
+
+background: linear-gradient(0deg,#e42a2a,#ffffff);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+  inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+  0px 0px 0px 4px rgba(255, 255, 255, 0.2);
+  
+  transform: translateY(-2px);
+}
+
+.pokemon-image{
+  width: 300px ;
+  height: 300px ;
+}
