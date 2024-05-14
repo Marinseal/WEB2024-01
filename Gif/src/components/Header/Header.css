@@ -1,0 +1,47 @@
+header {
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;  
+}
+
+.title {
+    margin: 0;
+    font-size: 69px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(252, 185, 252), rgb(253, 205, 116), #f8f8a9, rgb(140, 243, 140), rgb(149, 149, 247), rgb(204, 143, 248), rgb(252, 185, 252));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: slide 10s linear infinite;
+    background-size: 200% auto;
+}
+
+@keyframes slide {
+    0% {
+        background-position: 0 50%;
+    }
+    100% {
+        background-position: 200% 50%;
+    }
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+    
+}
+
+header nav {
+    margin: 0 10px;
+    font-size: 24px; 
+    text-decoration: none;
+    color: white;
+    
+}
+
+header nav:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
